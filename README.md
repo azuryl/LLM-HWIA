@@ -43,7 +43,7 @@
 ## Introduction
   
 > **[Toward Adaptive Large Language Models Structured Pruning via Hybrid-grained Weight Importance Assessment](https://arxiv.org/abs/2403.10799)** [[arXiv]](https://arxiv.org/abs/2403.10799)   
-> *Jun Liu, Zhenglun Kong, Pu Zhao*   
+> *Jun Liu, Zhenglun Kong, Pu Zhao Changdi Yang et. al*   
 > *Northeastern University, Boston*  
 
 #### Why LLM-HWIA
