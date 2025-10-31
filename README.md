@@ -46,7 +46,7 @@
 > *Jun Liu, Zhenglun Kong, Pu Zhao*   
 > *Northeastern University, Boston*  
 
-#### Why LLM-Pruner
+#### Why LLM-HWIA
 - [x] **Task-agnostic compression**: The compressed LLM should retain its original ability as a multi-task solver. 
 - [x] **Less training corpus**: In this work, we use only 50k publicly available samples (alpaca) to post-train the LLM.  
 - [x] **Efficient compression**: 3 minutes for pruning and 3 hours for post-training. (You can make it longer)
@@ -59,12 +59,6 @@
 - [x] [Vicuna](https://github.com/horseee/LLM-Pruner#llama-vicuna-pruning)
 - [x] [Baichuan](https://github.com/horseee/LLM-Pruner/tree/main/examples#llama-baichuan-pruning)
 
-#### Updates:
-* August 30, 2023: LLM-Pruner now supports [BLOOM](https://huggingface.co/docs/transformers/model_doc/bloom) :cherry_blossom:
-* August 14, 2023:  [Code](https://github.com/horseee/LLM-Pruner#2-post-training-recover-stage) and [results](https://github.com/horseee/LLM-Pruner#2-post-training-recover-stage) for finetuning with a large-scale corpus are now available. The fine-tuned LLaMA-5.4B model achieves an average accuracy of 62.36%, closely approaching the original LLaMA-7B (63.25%).
-* July 19, 2023: :fire:  LLM-Pruner now supports Llama-2-7b and Llama-2-13b (the huggingface version) 
-* July 18, 2023: :rocket: Support [Baichuan](https://github.com/baichuan-inc/Baichuan-7B), a bilingual LLM.
-* May 20, 2023: :tada: Code and Preprint Paper released! 
 
 #### TODO List:
 - [ ] Code for [ChatGLM](https://github.com/THUDM/ChatGLM-6B)
@@ -73,9 +67,6 @@
 
 #### Contact Us:
 
-Join our Discord or WeChat group for a chat:
-  * Discord: [link](https://discord.gg/Z6r34MnE)
-  * WeChat Group (Group size exceeded 400): [QR Code](https://github.com/VainF/Torch-Pruning/assets/18592211/6c80e758-7692-4dad-b6aa-1e1877e72bf7)
 
 ## Table of Contents
   - [Quick Start](#quick-start)
