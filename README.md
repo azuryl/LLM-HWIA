@@ -95,7 +95,6 @@ echo "GPU is $nGPU"
 
 
 echo "[START] - Start Pruning Model"
-#CUDA_VISIBLE_DEVICES=0 python hf_prune.py --pruning_ratio 0.20 --device cpu  --eval_device cuda --block_wise --block_mlp_layer_start 4 --block_mlp_layer_end 30 --block_attention_layer_start 4 --block_attention_layer_end 30 --save_ckpt_log_name $prune_ckpt_path --pruner_type taylor --test_after_train --taylor param_second --save_model 
 CUDA_VISIBLE_DEVICES=$nGPU python baichuan.py --pruning_ratio 0.25 --device cpu  --eval_device cuda --block_wise --block_mlp_layer_start 4 --block_mlp_layer_end 30 --block_attention_layer_start 4 --block_attention_layer_end 30 --save_ckpt_log_name $prune_ckpt_path --pruner_type taylor  --test_after_train --taylor sec_fuse --save_model --num_examples 50 --evratio 0.6 --base_model $base_model
 echo "[FINISH] - Finish Pruning Model"
 
