@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-<h1>LLM-HWIA</h1>
+<h1>AAAI 2025: Toward Adaptive Large Language Models Structured Pruning via Hybrid-grained Weight Importance Assessment</h1>
   <div align="center">
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-4E94CE.svg">
