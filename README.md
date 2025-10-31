@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-<h1>LLM-Pruner</h1>
+<h1>LLM-HWIA</h1>
   <div align="center">
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img alt="License: Apache 2.0" src="https://img.shields.io/badge/License-Apache%202.0-4E94CE.svg">
@@ -43,8 +43,8 @@
 ## Introduction
   
 > **[Toward Adaptive Large Language Models Structured Pruning via Hybrid-grained Weight Importance Assessment](https://arxiv.org/abs/2403.10799)** [[arXiv]](https://arxiv.org/abs/2403.10799)   
-> *Xinyin Ma, Gongfan Fang, Xinchao Wang*   
-> *National University of Singapore*  
+> *Jun Liu, Zhenglun Kong, Pu Zhao*   
+> *Northeastern University, Boston*  
 
 #### Why LLM-Pruner
 - [x] **Task-agnostic compression**: The compressed LLM should retain its original ability as a multi-task solver. 
