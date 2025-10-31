@@ -42,7 +42,7 @@
 
 ## Introduction
   
-> **[LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627)** [[arXiv]](https://arxiv.org/abs/2305.11627)   
+> **[Toward Adaptive Large Language Models Structured Pruning via Hybrid-grained Weight Importance Assessment](https://arxiv.org/abs/2403.10799)** [[arXiv]](https://arxiv.org/abs/2403.10799)   
 > *Xinyin Ma, Gongfan Fang, Xinchao Wang*   
 > *National University of Singapore*  
 
