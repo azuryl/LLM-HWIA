@@ -31,11 +31,6 @@
 :llama: :llama: :llama: :llama: :llama: Compress your LLMs to any size! :llama: :llama: :llama: :llama: :llama:
 </div>
 
-<p align="center">
-<img width="100%" alt="image" src="figures/intro.png">    
-<img src="figures/LLaMA_example.png" width="100%"> <br>
-</p>
-
 
 ## Introduction
   
