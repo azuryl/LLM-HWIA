@@ -1,6 +1,3 @@
-<p align="center">
-<img src="figures/logo.png" width="20%"> <br>
-</p>
 
 <div align="center">
 <h1>AAAI 2025: Toward Adaptive Large Language Models Structured Pruning via Hybrid-grained Weight Importance Assessment</h1>
