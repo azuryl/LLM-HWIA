@@ -273,29 +273,6 @@ python test_speedup.py --model_type pruneLLM --ckpt <YOUR_MODEL_PATH_FOR_PRUNE_M
 
 ## Zero-shot Evaluation
 
-A brief quantitative results for LLaMA-7B:
-
-<p align="center">
-<img src="figures/LLaMAResults.png" width="100%"> <br>
-</p>
-    
-The results for Vicuna-7B:
-    
-<p align="center">
-<img src="figures/VicunaResults.png" width="100%"> <br>
-</p>
-    
-The results for ChatGLM-6B:
-
-<p align="center">
-<img src="figures/ChatGLMResults.png" width="80%"> <br>
-</p>
-
-Statistics for pruned models:
-
-<p align="center">
-<img src="figures/statistic.png" width="50%"> <br>
-</p>
 
 Results of LLM-Pruner with 2.59M samples:
 | Pruning Ratio | #Param | Memory     | Latency | Speedup | BoolQ | PIQA  | HellaSwag | WinoGrande | ARC-e | ARC-c | OBQA  | Average |
