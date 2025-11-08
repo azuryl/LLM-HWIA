@@ -36,7 +36,8 @@
   
 > **[Toward Adaptive Large Language Models Structured Pruning via Hybrid-grained Weight Importance Assessment](https://arxiv.org/abs/2403.10799)** [[arXiv]](https://arxiv.org/abs/2403.10799)   
 > *Jun Liu, Zhenglun Kong, Pu Zhao Changdi Yang et. al*   
-> *Carnegie Mellon University, Pittsburgh Northeastern University, Boston*  
+> *Carnegie Mellon University, Pittsburgh*
+> *Northeastern University, Boston*  
 
 #### Why LLM-HWIA
 - [x] **Task-agnostic compression**: The compressed LLM should retain its original ability as a multi-task solver. 
