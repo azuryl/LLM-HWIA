@@ -99,7 +99,7 @@ CUDA_VISIBLE_DEVICES=$nGPU python baichuan.py --pruning_ratio 0.25 --device cpu 
 echo "[FINISH] - Finish Pruning Model"
 
 echo "[START] - Start Tuning"
-export PYTHONPATH='/home/azuryl/.cache/huggingface/modules:$PYTHONPATH'
+export PYTHONPATH='/home/user/.cache/huggingface/modules:$PYTHONPATH'
 CUDA_VISIBLE_DEVICES=$nGPU python post_training.py --prune_model prune_log/$prune_ckpt_path/pytorch_model.bin --data_path yahma/alpaca-cleaned --output_dir tune_log/$tune_ckpt_path --wandb_project llama_tune --lora_r 8 --lora_target_modules gate_proj,down_proj,up_proj,W_pack,o_proj,W_pack,o_proj --num_epochs 2 --learning_rate 1e-4 --batch_size 64
 echo "[FINISH] - Finish Prune and Post-Training."
 echo "[INFO] - The pruned model is at {prune_log/$prune_ckpt_path/pytorch_model.bin}, and the recovery weight is at {tune_log/$tune_ckpt_path}/"
